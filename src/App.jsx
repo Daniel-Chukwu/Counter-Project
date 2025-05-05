@@ -12,12 +12,12 @@ const App = () => {
   };
 
   return (
-    <>
+    <div>
       <h1>{count}</h1>
       <button onClick={increment}>Increase</button>
       <button onClick={decrement}>Decrease</button>
       <EdgeCases />
-    </>
+    </div>
   );
 };
 
